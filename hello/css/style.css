@@ -1,0 +1,185 @@
+
+body{
+    margin: 0;
+    background: url("/assets/pattern-background-mobile.svg") no-repeat ;
+    background-size:100% 100%;
+    background-color: #D6E1FF;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+p{
+    font-size: 18px;
+}
+
+.card{
+    margin: 3% auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 28em;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body{
+    padding: 8% 13%;
+}
+
+.card-title{
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #1F2E55;
+    line-height: 2;
+}
+
+
+
+.pricing{
+    background-color:  #F7F9FF;;
+    padding: 5% 3%;
+    border-radius: 0.625rem;
+}
+
+
+.plan{
+    font-weight: 900;
+    color: #1F2E55;
+}
+
+.leprix{
+    color: #382AE1;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 700;
+}
+
+.leprix:hover{
+    color: #766CF1;
+    text-decoration: none;
+}
+
+p{
+  color:#717FA6;
+}
+
+.pay-man{
+    background-color: #382AE1;
+    margin: 10% 0 7%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4%;
+    border-radius: 0.625rem;
+}
+
+.pay-man:hover {
+    background-color:#766CF1;
+}
+
+
+
+.cancel-order{
+    text-decoration: none;
+    color: #717FA6;
+    font-weight: 700;
+
+}
+
+.cancel-order:hover{
+    color: #1F2E55;
+}
+
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #1F2E55;
+}
+
+
+@media only screen and (max-width:375px) {
+
+  p,
+    .plan,
+    .change-plan {
+      font-size: 16px;
+  }
+
+  .card {
+      margin-top:18%;
+      width: 20em;
+      max-width: 100%;
+  }
+
+  .card-body {
+      padding: 8%;
+  }
+
+  .card-title {
+      font-size: 1.9rem;
+  }
+
+  .pricing {
+      justify-content: center;
+  }
+}
+  
+@media only screen and (max-width:500px) {
+
+    p,
+    .plan,
+    .change-plan {
+      font-size: .8em;
+  }
+
+  .card {
+      margin-top:18%;
+      width: 20em;
+      max-width: 100%;
+  }
+
+  .card-body {
+      padding: 8%;
+  }
+
+  .card-title {
+      font-size: 1.4em;
+  }
+
+  .pricing {
+      justify-content: center;
+  }
+}
+
+@media only screen and (max-width:900px) {
+
+  p,
+  .plan,
+  .change-plan {
+    font-size: .8em;
+}
+
+.card {
+    margin-top:10%;
+    width: 20em;
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 8%;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+.pricing {
+    justify-content: center;
+}
+}
+
+
